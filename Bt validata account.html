@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT</title>
+</head>
+<body>
+<script>
+    function checkaccount(str) {
+        let regexp = /^[_a-z0-9]{6,}$/
+        if (regexp.test(str)){
+            document.write("account hop le :" + "<br>")
+        } else
+            document.write("account khong hop le" + "<br>")
+
+    }checkaccount("123abc")
+    checkaccount("12345")
+</script>
+
+</body>
+</html>
